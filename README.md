@@ -3,6 +3,7 @@ Image Filters in PHP
 
 <h2>Example</h2>
 
+```php
 include("phpImageFilters.php");
 
 $phpImageFilters = new phpImageFilters();
@@ -10,6 +11,7 @@ $phpImageFilters->format = "jpg";
 $phpImageFilters->setImage('filter.jpg');
 $phpImageFilters->retro();
 $phpImageFilters->output('test');
+```
 
 <h2>License</h2>
 
